@@ -383,6 +383,10 @@ func (hs *HttpApiServer) configHttpServer() {
 	}
 }
 
+func (hs *HttpApiServer) GetGinEngine() *gin.Engine {
+	return hs.ginEngine
+}
+
 /*
 *
 * 拼接URL

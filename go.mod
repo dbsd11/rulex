@@ -33,6 +33,7 @@ require (
 	github.com/nats-io/nats.go v1.26.0
 	github.com/patrikeh/go-deep v0.0.0-20230427173908-a2775168ab3d
 	github.com/plgd-dev/go-coap/v2 v2.6.0
+	github.com/quic-go/quic-go v0.36.2
 	github.com/robinson/gos7 v0.0.0-20230421131203-d20ac6ca08cd
 	github.com/rs/zerolog v1.28.0
 	github.com/shirou/gopsutil v3.21.11+incompatible
@@ -47,6 +48,7 @@ require (
 	github.com/wwhai/ntp v0.3.0
 	github.com/wwhai/tarmserial v1.0.0
 	github.com/wwhai/tinycache v0.0.0-20191004192108-46f407853014
+	github.com/xuri/excelize/v2 v2.7.1
 	go.bug.st/serial v1.5.0
 	go.mongodb.org/mongo-driver v1.11.6
 	go.uber.org/zap v1.15.0
@@ -61,13 +63,21 @@ require (
 )
 
 require (
+	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
+	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
 	github.com/juju/errors v0.0.0-20170703010042-c7d06af17c68 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
+	github.com/onsi/ginkgo/v2 v2.9.5 // indirect
+	github.com/quic-go/qpack v0.4.0 // indirect
+	github.com/quic-go/qtls-go1-19 v0.3.2 // indirect
+	github.com/quic-go/qtls-go1-20 v0.2.2 // indirect
 	github.com/richardlehane/mscfb v1.0.4 // indirect
 	github.com/richardlehane/msoleps v1.0.3 // indirect
 	github.com/xuri/efp v0.0.0-20220603152613-6918739fd470 // indirect
-	github.com/xuri/excelize/v2 v2.7.1 // indirect
 	github.com/xuri/nfp v0.0.0-20220409054826-5e722a1d9e22 // indirect
+	golang.org/x/exp v0.0.0-20221205204356-47842c84f3db // indirect
+	golang.org/x/mod v0.10.0 // indirect
+	golang.org/x/tools v0.9.1 // indirect
 )
 
 require (
@@ -88,7 +98,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/goburrow/modbus v0.1.0 // indirect
 	github.com/goburrow/serial v0.1.0 // indirect
-	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/goccy/go-json v0.10.2
 	github.com/godbus/dbus/v5 v5.0.4 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
